@@ -12356,6 +12356,7 @@ html.rd-navbar-fixed-linked .page {
     display: block;
     margin-top: 0;
 }
+
 /* Change la couleur de fond au survol des liens du sous-menu */
 .dropdown-menu .dropdown-item:hover {
     background-color: #007bff; /* Bleu Bootstrap */
