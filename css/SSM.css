@@ -5352,6 +5352,13 @@ html:not(.tablet):not(.mobile) .thumbnail-classy:hover .thumbnail-classy-image {
 	}
 }
 
+/* Effet de survol pour les cartes */
+.card:hover {
+	transform: translateY(-10px); /* Déplace légèrement la carte vers le haut */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre plus prononcée */
+	transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation fluide */
+  }
+
 /*
 * Breadcrumbs
 */
